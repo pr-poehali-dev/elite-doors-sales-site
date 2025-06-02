@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import Icon from '@/components/ui/icon';
 
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-amber-50 to-stone-100 flex items-center justify-center overflow-hidden">
       {/* Background Pattern */}
